@@ -1,0 +1,8 @@
+.temp-info {
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.temp-info > p {
+  margin-bottom: 1rem;
+}
