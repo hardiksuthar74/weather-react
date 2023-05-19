@@ -31,7 +31,6 @@ function App() {
         icon: data.weather[0].icon,
         windSpeed: (data.wind.speed * 3600) / 1000,
       };
-      console.log(data);
       setData(weatherData);
       setErrorMessage("");
     } catch (err) {
